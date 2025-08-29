@@ -19,3 +19,4 @@ git revert commit_hash_id
 
 # to come back from latest updates ew use revers
 git revers commmit_hash_id
+npx cap copy
