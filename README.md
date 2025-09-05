@@ -20,3 +20,22 @@ git revert commit_hash_id
 # to come back from latest updates ew use revers
 git revers commmit_hash_id
 npx cap copy
+
+
+
+# Install Capacitor
+npm install @capacitor/core @capacitor/cli
+npx cap init gsb-community-app com.gsb.community
+
+# Add Android platform
+npm install @capacitor/android
+npx cap add android
+
+# Build Vue app
+npm run build
+
+# Copy build files to Android
+npx cap copy
+
+# Open Android project
+npx cap open android
