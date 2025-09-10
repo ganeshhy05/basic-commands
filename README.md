@@ -34,8 +34,23 @@ npx cap add android
 # Build Vue app
 npm run build
 
+
+
 # Copy build files to Android
 npx cap copy
 
 # Open Android project
 npx cap open android
+
+
+
+
+
+
+
+git status
+git checkout main
+git pull origin main
+git fetch --all
+git branch -r
+
