@@ -41,7 +41,7 @@ npx cap copy
 
 # Open Android project
 npx cap open android
-
+#git commit
 
 
 
