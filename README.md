@@ -54,3 +54,11 @@ git pull origin main
 git fetch --all
 git branch -r
 
+git remote -v
+git branch
+git remote remove origin
+git remote add origin https://github.com/GeniPro-Technologies/Saujannaya.git
+git remote -v
+git push -u origin master
+
+
